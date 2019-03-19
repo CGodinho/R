@@ -2,7 +2,7 @@
 #
 # File:  vectors.R
 #
-# Comment: Basic set of operations with vector in R.
+# Comment: Basic set of operations with vectors in R.
 #
 ###############################################################################
 
@@ -111,6 +111,24 @@ vec7 %in% c(1, 4, 10)
 
 
 ###############################################################################
-#                            S T A T I  S T I C S
+#                           A G G   &   S T A T I S T I C S
 ###############################################################################
-vec
+vec8 <- c(1:10, 200, 30:40, rep(c(50,60), 3))
+vec8
+
+# set of statistics
+summary(vec8)
+
+# average, varience, standard deviation
+mean(vec8)
+median(vec8)
+var(vec8)
+sd(vec8)
+sd(vec8)^2 - var(vec8) < 0.00001
+
+# max and min
+max(vec8)
+min(vec8)
+
+# range
+range(vec8)
