@@ -27,12 +27,15 @@ seq(20, 0, by = -2)
 
 # from repetitions
 rep(c("hello", "world", "!"), 3)
+rep(c(2, 4, 2), each = 3)
+rep(1:3,length.out=7)
 
 # from samples, advisable to have a seed
 set.seed(100)
 sample(1:100, 5)
 
 # samples with repetiton
+sample(c(1, 2, 3), size = 6, replace = TRUE)
 sample(c('a', 'e', 'i', 'o', 'u'), 10, replace = TRUE)
 
 # binding, with "c" constructor
@@ -45,9 +48,6 @@ c(vec1, vec2)
 #                           O P E R A T O R S
 ###############################################################################
 vec3 <- c(1, 10:15, 20)
-
-# size
-length(vec3)
 
 # object types
 class(vec3)
@@ -132,3 +132,58 @@ min(vec8)
 
 # range
 range(vec8)
+
+# produce the quantiles and check quantile distribution
+quantile(vec8)
+
+# Summation table, provides an easy group by count
+vec9 <- c(seq(1:10), seq(5,9), 10, 5, 7, 5, 9)
+vec9
+table(vec9)
+
+vec10 <- c('A','E', 'I', 'O', 'U', 'A', 'U', 'E', 'E')
+table(vec10)
+
+# correlation, covarame and variance 2 vectors
+vec11 <- c(1, 2, 5, 7, 3, 0)
+vec12 <- c(2, 2, 6, 6, 5, 1)
+cor(vec11, vec12)
+cov(vec11, vec12)
+var(vec11, vec12)
+
+
+###############################################################################
+#                           F U N C T I O N S
+###############################################################################
+vec13 <- c(9, 3, 0, 5, 0, 4, 8, 9 , 0)
+
+# replace a value (with predicate match) with other value
+# same as vec11[vec11 == 0] <- 1
+replace(vec13, vec13 == 0, 1)
+
+# size
+length(vec13)
+
+# select the positions that fullfill the predicate
+which(vec13 == 0)
+
+# sort elements
+sort(c(9, 5, 3, 2 ,1, 4, 7, 8, 6))
+
+# returns the order positions
+order(c(9, 5, 3, 2 ,1, 4, 7, 8, 6))
+
+# reverses the vector
+rev(c(9, 8, 7, 6 ,5, 4, 3, 2, 1))
+
+# remove duplicates
+vec14 <- c(1, 2, 3, 2, 3, 1, 2, 3, 1, 4)
+unique(vec14)
+
+# check the duplicated elements and get them
+duplicated(vec14)
+vec12[duplicated(vec14)]
+
+# returns signs in form of -1 (negative), 1 (positive) and 0
+sign(c(10, -10, 0, 20, -20))
+

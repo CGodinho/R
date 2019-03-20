@@ -44,14 +44,8 @@ searchpaths()
 
 
 ###############################################################################
-#                          E N V I R O N M E N T
+#                            E N V I R O N M E N T
 ###############################################################################
-# retrieves default working dir
-getwd()
-
-# defines default working dir
-setwd("C:/")
-
 # show defined variables (also avaialbe in RStudio Environment panel)
 ls()
 
@@ -64,7 +58,7 @@ rm(list = ls())
 
 
 ###############################################################################
-#                               H E L P
+#                                 H E L P
 ###############################################################################
 # help on a function
 ?mean
@@ -74,3 +68,44 @@ help(mean)
 
 # show example of function usage
 example(mean)
+
+
+###############################################################################
+#                             D A T A   T Y P E    
+###############################################################################
+# get type
+class(1)
+class("HELLO!")
+class(TRUE)
+
+# test type (manu other functions available)
+is.numeric(1)
+is.character("HELLO!")
+is.logical(TRUE)
+is.double(pi)
+
+
+###############################################################################
+#                       O P E R A T I N G     S Y S T E M
+###############################################################################
+# retrieves default working dir
+getwd()
+
+# defines default working dir
+setwd("C:/")
+
+# excute a command in OS
+system("ls")
+system("notepad myfile.txt")
+
+# get environment variables (all or a psecific one)
+Sys.getenv()
+Sys.getenv("R_HOME")
+
+# Set, get amd clean environment variable
+Sys.setenv(R_TEST = "TEST IT!")
+Sys.getenv("R_TEST")
+Sys.unsetenv("R_TEST")
+
+# gets define slocale
+Sys.getlocale()
