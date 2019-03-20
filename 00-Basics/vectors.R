@@ -93,6 +93,14 @@ vec6[-1]
 # remove a set of elements
 vec6[c(-2, -4, -6, -8, -10)]
 
+# first 5 elements
+head(vec6, n = 5)
+vec6[0:5]
+
+# last 5 elements
+tail(vec6, n = 5)
+vec6[(length(vec6) -4):length(vec6)]
+
 
 ###############################################################################
 #                      L O G I C A L    I N D E X 
@@ -182,8 +190,32 @@ unique(vec14)
 
 # check the duplicated elements and get them
 duplicated(vec14)
-vec12[duplicated(vec14)]
+vec14[duplicated(vec14)]
 
 # returns signs in form of -1 (negative), 1 (positive) and 0
 sign(c(10, -10, 0, 20, -20))
 
+
+###############################################################################
+#                              S E T S 
+###############################################################################
+vec15 <- 1:10
+vec16 <- 5:15
+vec15
+vec16
+
+# unites both sets
+union(vec15, vec16)
+
+# just the lemetns in both sets
+intersect(vec15, vec16)
+
+# avaialbe only in first, but not in second
+setdiff(vec15, vec16)
+
+# checks equality
+setequal(vec15, vec16)
+setequal(vec15, vec15)
+
+# logical vector with elements in common, relatively to first set
+is.element(vec15, vec16)
