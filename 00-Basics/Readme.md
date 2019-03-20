@@ -1,10 +1,13 @@
 # Basics
 
-This directory presents basic usage of R core functions. Each case is presented in a single file to be executed within R Studio-
+This directory presents basic usage of R core functions. Each case is presented in a single file to be executed within R Studio.
 
 
-## Vectors
+## vectors
 
-Examples of vector creation and processing. Vectors are one of the fundamental data structures in R. 
+Examples of vector creation and processing. Vectors are one of the fundamental data structures in R.
 
 
+## workspace
+
+Basic commands for environment setup and operating system settings from console.
