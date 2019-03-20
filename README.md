@@ -22,5 +22,6 @@ Dependencies are managed automatically so other projects are also installed.
  
   Link                                                           | Description                                                      |
 | -------------------------------------------------------------- |:----------------------------------------------------------------:|
-| [CRAN](https://cran.r-project.org/col)                         | The comprehensive R Archive. Holds R and its official packages.  |
+| [CRAN](https://cran.r-project.org/)                            | The comprehensive R Archive. Holds R and its official packages.  |
+| [RStudio](https://www.rstudio.com/)                            | R advanced IDE. Also home for R packages and Shiny.              |
 | [Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) | R Studio Cheat Sheets                                            |
