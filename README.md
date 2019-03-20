@@ -19,3 +19,9 @@ Dependencies are managed automatically so other projects are also installed.
   
   
  ## Links
+ 
+  Tables        | Are           |
+| ------------- |:-------------:|
+| col 3 is      | right-aligned |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
