@@ -20,8 +20,7 @@ Dependencies are managed automatically so other projects are also installed.
   
  ## Links
  
-  Tables        | Are           |
-| ------------- |:-------------:|
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
+  Link                                                           | Description                                                      |
+| -------------------------------------------------------------- |:----------------------------------------------------------------:|
+| [CRAN](https://cran.r-project.org/col)                         | The comprehensive R Archive. Holds R and its official packages.  |
+| [Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) | R Studio Cheat Sheets                                            |
