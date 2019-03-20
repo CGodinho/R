@@ -145,6 +145,8 @@ range(vec8)
 quantile(vec8)
 
 # Summation table, provides an easy group by count
+# building a univariate frequency table
+# (https://en.wikipedia.org/wiki/Frequency_distribution)
 vec9 <- c(seq(1:10), seq(5,9), 10, 5, 7, 5, 9)
 vec9
 table(vec9)
@@ -210,7 +212,7 @@ union(vec15, vec16)
 # just the lemetns in both sets
 intersect(vec15, vec16)
 
-# avaialbe only in first, but not in second
+# availabe only in first, but not in second
 setdiff(vec15, vec16)
 
 # checks equality
