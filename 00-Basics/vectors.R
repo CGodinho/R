@@ -19,6 +19,9 @@ c(1, 10, 30, 20, 30, 50)
 # mixed notation
 c(1, 10:30, 40)
 
+# mixed types as coarsed to string
+typeof(c(1, 1.1, "one", TRUE))
+
 # from sequence
 seq(1, 10, 0.5)
 
@@ -43,6 +46,11 @@ vec1 <- 1:10
 vec2 <- 11:20
 c(vec1, vec2)
 
+# creating with names and accessing
+vec2a <- c(x = 1, y = 2, z = 4)
+vec2a["x"]
+vec2a[c("x", "z")]
+
 
 ###############################################################################
 #                           O P E R A T O R S
@@ -51,6 +59,7 @@ vec3 <- c(1, 10:15, 20)
 
 # object types
 class(vec3)
+typeof(vec3)
 
 # apply a matematichal operation to all elements
 vec3 + 10
@@ -77,7 +86,7 @@ vec4 == vec5
 
 
 ###############################################################################
-#                       N U M E R I C     I N D E X 
+#       N U M E R I C     I N D E X   -    S U B S E T T I N G
 ###############################################################################
 vec6 <- 1:10
 
@@ -199,7 +208,7 @@ sign(c(10, -10, 0, 20, -20))
 
 
 ###############################################################################
-#                              S E T S 
+#                                 S E T S 
 ###############################################################################
 vec15 <- 1:10
 vec16 <- 5:15
@@ -221,3 +230,18 @@ setequal(vec15, vec15)
 
 # logical vector with elements in common, relatively to first set
 is.element(vec15, vec16)
+
+
+###############################################################################
+#                            M E T A D A T A
+###############################################################################
+vec17 <- 1:10
+
+# create a metadata entry for vector
+attr(vec17, "message") <- "Hello!"
+
+# dump a metadata entry for vector
+attr(vec17, "message")
+
+# list all attributes
+attributes(vec17)

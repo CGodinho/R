@@ -56,6 +56,10 @@ rm(x)
 # deletes all variables
 rm(list = ls())
 
+# quits R
+q()
+quit()
+
 
 ###############################################################################
 #                                 H E L P
@@ -109,3 +113,14 @@ Sys.unsetenv("R_TEST")
 
 # gets define slocale
 Sys.getlocale()
+
+
+###############################################################################
+#                          D A T A      S E T S
+###############################################################################
+# show avaiable datasets
+data()
+
+# lads a specific dataset
+data(Nile)
+data(iris)
