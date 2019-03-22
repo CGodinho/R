@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# File:  matrixes.R
+# File:  matrices.R
 #
 # Comment: Matrix abstraction in R.
 #
@@ -49,6 +49,26 @@ t(mat1)
 mat1 * 10
 mat1 / 2
 
+# means for rows and columns
+rowMeans(mat1)
+colMenas(mat1)
+
+# sums for rows and columns
+rowSums(mat1)
+colSums(mat1)
+
+# Correlation between values
+cor(mat1)
+
+
+mat2 <- matrix(c(1, 2, 3, 4), nrow = 2, ncol = 2, byrow = TRUE)
+mat3 <- matrix(c(1, 0, 5, 7), nrow = 2, ncol = 2, byrow = TRUE)
+
+# matrix multiplication
+mat2
+mat3
+mat2 %*% mat3
+
 
 ###############################################################################
 #                              B I N D I N G 
@@ -92,4 +112,3 @@ mat1[, c(1, 5)]
 
 # getting th1 1st and 5th column and the 3rd row
 mat1[3, c(1, 5)]
-
