@@ -64,11 +64,14 @@ rbind(mat1, c(7, 0, 3, 5, 4))
 
 mat2 <- matrix(c(1, 2, 3, 4, 5, 6), nrow = 3, ncol = 2, byrow = FALSE)
 
+# namong columns and rows
 dimnames(mat2) = list( 
      c("row1", "row2", "row3"),
      c("col1", "col2"))
 mat2
 mat2["row1", "col2"]
+rownames(mat2)
+colnames(mat2)
 
 
 ###############################################################################
