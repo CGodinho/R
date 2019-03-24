@@ -5,7 +5,7 @@
 This repository stores R examples in the following directories:
 
  * 00 - Basics
- *
+ * 01 - Packages
 
 ## Installation
 
@@ -25,3 +25,7 @@ Dependencies are managed automatically so other projects are also installed.
 | [CRAN](https://cran.r-project.org/)                            | The comprehensive R Archive. Holds R and its official packages.  |
 | [RStudio](https://www.rstudio.com/)                            | R advanced IDE. Also home for R packages and Shiny.              |
 | [Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) | R Studio Cheat Sheets                                            |
+
+
+##Notes
+
