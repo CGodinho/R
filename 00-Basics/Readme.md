@@ -11,6 +11,9 @@ Examples of matrix creation and processing.
 
 Examples of vector creation and processing. Vectors are one of the fundamental data structures in R.
 
+## strings
+
+Processing strings with basic R (no packages).
 
 ## workspace
 
