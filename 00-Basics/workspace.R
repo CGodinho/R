@@ -124,3 +124,6 @@ data()
 # lads a specific dataset
 data(Nile)
 data(iris)
+
+# dispalys documentation on the data set
+help(Nile)
