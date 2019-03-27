@@ -9,5 +9,7 @@ Used to simplify string handling.
 
 Created by Wickham and initially introduced in [the R jornal, volume 2, number 2](http://journal.r-project.org/archive/2010-2/RJournal_2010-2_Wickham.pdf).
 
+[Documentation and cheat sheet](https://stringr.tidyverse.org/index.html).
+
 With stringr, handling strings becomes more clear.
 

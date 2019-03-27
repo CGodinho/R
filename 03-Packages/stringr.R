@@ -1,9 +1,13 @@
 ###############################################################################
 #
-# File:  stringr.R
+# File: stringr.R
 #
 # Comment: Usage of package stringr for simplified an more similar string
 #          handling functions.
+#          
+# Links: https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Wickham.pdf
+#        https://stringr.tidyverse.org/index.html
+#        https://github.com/rstudio/cheatsheets/blob/master/strings.pdf
 #
 ###############################################################################
 
@@ -17,14 +21,14 @@ library("stringr")
 ###############################################################################
 # NOTE: Equivalent to paste
 #
-# Constructing from collapsing a vector
+# constructing from collapsing a vector
 vec1 <- c("Let us use", "stringr", "to make life", "easier ...")
 str1 <- stringr::str_c(vec1, collapse = " ")
 
-# Combinations, with NA as absorbing element (NAs perserved)
+# combinations, with NA as absorbing element (NAs perserved)
 str_c(c("a", NA, "b"), "-d")
 
-# Joinning by same position
+# joinning by same position
 str_c(c("a", "b"), c("-x-", "-y-"), c("1", "2"))
       
 
@@ -34,33 +38,93 @@ str_c(c("a", "b"), c("-x-", "-y-"), c("1", "2"))
 # length as with nchar
 str_length(str1)
 
-# Applied to each vector position
+# applied to each vector position
 str_length(c("Hi", NA, "stringr!"))
 
-# Slice positions 12 to 18
+# equivalent to substr
+# slice positions 12 to 18
 str_sub(str1, 12, 18)
 
-# FRom postion 12 onwards
+# from postion 12 onwards
 str_sub(str1, 12)
 
-# From end to postion 31 
+# from end to postion 31 
 str_sub(str1, -31)
 
-# Trimmimg both sides, or just one
+# trimmimg both sides, or just one
 str2 <- "  do not like whitespaces  "
 str2
 str_trim(str2)
 str_trim(str2, side = "left")
 str_trim(str2, side = "right")
 
-# Padding white spaces
+# padding white spaces
 str_pad("Love whitespaces", width = 20, side = "both")
 
-# Duplicating n times
+# duplicating n times
 str_dup("aeiou", times = 4)
 
-str_count("Hello!", "l")
-str_count(vec1, "s")
 
-#??????
-str_str("us", "__", str1)
+################################################################################
+#                      C O N S T R U C T I O N 
+################################################################################
+# glueing strings
+name <- "carlos"
+year <- "1972"
+str_glue("My name is {name} and I was born in {year}.", name = name, year = year)
+
+# building form vector
+str_c("Just", "one", "string", sep = ",") 
+
+
+###############################################################################
+#                   P A T T E R N     M A T C H I N G
+###############################################################################
+str3 <- c("Another", "string", "to", "search", "for", "with", "string", "matchings", "strings ...")
+
+# returns a logical vector for each finding 
+str_detect(str3, "string.?")
+
+# matrix with columns start and end position. NAs if no match.
+str_locate(str3, "string.?")
+
+# extracts the text of the first match, with str_extract_all all matches
+# are extracted
+str_extract(str3, "string.?")
+
+# captures groups formed from the 1st match
+str_match(str3, "string.?")
+
+# counts pattern match
+sum(str_count(str3, "string.?"))
+
+# replaces 1st occurences, with str_replce_all all matches are replaced
+str_replace(str3, "string", "character")
+
+# splits by a pattern
+str_split(paste(str3, collapse = ","), ",")
+
+
+###############################################################################
+#                       C O N V E R S I O N S
+###############################################################################
+# string to upper 
+str_to_upper("all to upper ...")
+
+# string to lowe
+str_to_lower("ALL TO LOWER ...")
+
+# string to case sentence
+str_to_sentence("All tO LoWeR ...")
+
+
+###############################################################################
+#                       C O N V E R S I O N S
+###############################################################################
+str4 <- c("order", "and", "sort", "all", "strings")
+
+# order of string in vector
+str_order(str4)
+
+# sort the string in vector
+str_sort(str4)
