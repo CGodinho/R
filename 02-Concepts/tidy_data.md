@@ -24,6 +24,8 @@ Many R packages receive as input data in **tidy format**. Package [dplyr](https:
 
 ![Tidy data example](https://github.com/CGodinho/R/tree/master/02-Concepts/tidy_data_1.PNG "Tidy data example")
 
+<img src="https://github.com/CGodinho/R/tree/master/02-Concepts/tidy_data_1.PNG" alt="Tidy data example" />
+
 ## Links
 
  * Created by Hadley Wickham and initially introduced in [The Journal of Statistical Software , volume 59, issue 10](https://www.jstatsoft.org/article/view/v059i10).
