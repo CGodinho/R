@@ -22,10 +22,6 @@ Many R packages receive as input data in **tidy format**. Package [dplyr](https:
 
 ## Example
 
-![Tidy data example](https://github.com/CGodinho/R/tree/master/02-Concepts/tidy_data_1.PNG)
-
-<img src="https://github.com/CGodinho/R/tree/master/02-Concepts/tidy_data_1.PNG" alt="Tidy data example" />
-
 ![Tidy data example](tidy_data_1.PNG)
 
 ## Links
