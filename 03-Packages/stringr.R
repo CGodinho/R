@@ -98,11 +98,21 @@ str_match(str3, "string.?")
 # counts pattern match
 sum(str_count(str3, "string.?"))
 
-# replaces 1st occurences, with str_replce_all all matches are replaced
+# replaces 1st occurences, with str_replace_all all matches are replaced
 str_replace(str3, "string", "character")
+
+# removes 1st occurences, with str_remove_all all matches are removed
+str_remove(str3, "string")
+
+
+# returns a logical vector for matching stat of strings
+str_starts(str3, "string")
+
+str_ends(str3, "string")
 
 # splits by a pattern
 str_split(paste(str3, collapse = ","), ",")
+
 
 
 ###############################################################################
