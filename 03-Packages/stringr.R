@@ -105,11 +105,13 @@ str_replace(str3, "string", "character")
 # removes 1st occurences, with str_remove_all all matches are removed
 str_remove(str3, "string")
 
-
-# returns a logical vector for matching stat of strings
+# returns a logical vector for matching start of strings
 str_starts(str3, "string")
+(str_starts(str3, "string") == str_detect(str3, "^string"))
 
+# returns a logical vector for matching end of strings
 str_ends(str3, "string")
+(str_ends(str3, "string") == str_detect(str3, "string$"))
 
 # splits by a pattern
 str_split(paste(str3, collapse = ","), ",")
