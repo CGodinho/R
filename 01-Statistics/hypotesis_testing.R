@@ -3,8 +3,8 @@
 # File: hypotesis_testing.R
 #
 # Comment: Implementing a t.student test to make an hypotesis testing.
-#          Checking if apopulation follows a normal distribution with 
-#           Shapiro-Walk test.
+#          Checking if a population follows a normal distribution with 
+#          Shapiro-Walk test.
 # 
 ###############################################################################
 
