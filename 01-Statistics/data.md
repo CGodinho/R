@@ -28,3 +28,7 @@ Follow the [tidy data](https://github.com/CGodinho/R/blob/master/02-Concepts/tid
 ## Variables
 
 ![Type of variables](data_1.PNG)
+
+When two variables show some connection with one another, they are called **associated** variables (or dependent variables).
+
+If 2 variables are not associated, they are **independent**.
