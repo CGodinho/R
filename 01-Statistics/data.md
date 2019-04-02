@@ -32,3 +32,35 @@ Follow the [tidy data](https://github.com/CGodinho/R/blob/master/02-Concepts/tid
 When two variables show some connection with one another, they are called **associated** variables (or dependent variables).
 
 If 2 variables are not associated, they are **independent**.
+
+
+## Population and Sample
+
+A **sample** is a subset of a **population**. For practical reason, usually is a small fraction.
+
+
+## Anecdotal Evidence
+
+Evidence from a small set of population may not be representative and lead to incorrect conclusions.
+Examine a sample of many cases to have a better population representation.
+
+**Random** selection is a good choice to avoid **bias**.
+
+Another bias factors are related to **non-response** and **convenience sample**.
+
+
+## Exploratory and Response Variables
+
+An **exploratory variable** might affect a **response variable**.
+
+But be careful because **association does not imply causation** and causation can only be inferred from a randomized experiment.
+
+
+## Observation Study
+
+Data is collected in a way that does not directly interfere with how the data arise.
+
+
+##  Experiments
+
+To investigate the possibility of a causal connection, an experiment is conducted . Usually there will be both an explanatory and a response variable under test.
