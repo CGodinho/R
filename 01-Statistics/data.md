@@ -105,8 +105,13 @@ In a **randomized experiment**, randomization is used to assign cases.
 Techniques as Controlling, Randomization, Replication and Blocking are often used.
 
 Experiments create 2 groups:
+
 * Treatment
 * Control - which receive a **placebo**
 
-If researches do not inform volunteers about its group, we have a blind experiment.
+The **placebo effect** is a phenomema where pacients in the Control group get better just by thinking they are taking a tratment.
+
+If researches do not inform volunteers about its group, we have a **blind experiment**.
+
+If also the redearches do not know group distribution, **it is called a double blind expriment**.
 
