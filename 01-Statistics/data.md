@@ -109,9 +109,9 @@ Experiments create 2 groups:
 * Treatment
 * Control - which receive a **placebo**
 
-The **placebo effect** is a phenomema where pacients in the Control group get better just by thinking they are taking a tratment.
+The **placebo effect** is a phenomena where patients in the Control group get better just by thinking they are taking a tratment.
 
 If researches do not inform volunteers about its group, we have a **blind experiment**.
 
-If also the researchers do not know the group distribution, **it is called a double blind expriment**.
+If also the researchers do not know the group distribution, **it is called a double blind experiment**.
 

@@ -2,6 +2,9 @@
 
 This directory presents basic usage of R core functions. Each case is presented in a single file to be executed within R Studio.
 
+## dataframes
+
+Example of dataframes creation and processing.
 
 ## matrices
 
