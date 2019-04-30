@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Data** are observations collected from the field notes, surveys, and experiments which describe phenomena.
+**Data** are observations collected from  field notes, surveys, and experiments which describe phenomena.
 
 **Statistics** is the study of how best to collect, analyze, and draw conclusions from data.
   
@@ -92,7 +92,7 @@ Critical to have real randomness.
 
 Different techniques are:
 
-1. **Simple random sample** - each case in population as an equal change of selection;
+1. **Simple random sample** - each case in population as an equal chance of selection;
 2. **Stratifies random sample** - 1<sup>st</sup> create **strata**, than sample within each strata;
 3. **Cluster sample** - Divide into clusters randomly, select clusters and select all elements within the selected clusters;
 4. **Multistage (cluster) sample** - Similar to last, but with random sampling within cluster.
@@ -113,5 +113,5 @@ The **placebo effect** is a phenomema where pacients in the Control group get be
 
 If researches do not inform volunteers about its group, we have a **blind experiment**.
 
-If also the redearches do not know group distribution, **it is called a double blind expriment**.
+If also the researchers do not know the group distribution, **it is called a double blind expriment**.
 
