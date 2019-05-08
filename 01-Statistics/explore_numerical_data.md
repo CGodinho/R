@@ -18,23 +18,43 @@ A one variable scatterplot is called a **dotplot**.
 
 ![dot plot](explore_numerical_data_2.PNG)
 
-****
+
+## Mean
+
+Calculates the **centrer** of a distribution.
+
+The population mean is described by **x&#772;**.
+
+![dot plot](explore_numerical_data_3.PNG)
+
+The sample mean is described by **&#956;**.
 
 
 
-Mean
-
-Calculates the centrer of a distribution.
-
-
-
-
+---
 Also known as **Dataframe**.
 
 Follow the [tidy data](https://github.com/CGodinho/R/blob/master/02-Concepts/tidy_data.md) principle with:
 
 * Each **row represents** an **observation** (or case);
 * Each **column** represents a **variable** (or characteristic). It is recommended to explicitly describe the variable content and units in an adjacent summary description.
+
+
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
+&omega;
+
+&‌mu;
+
+&
+
+
+
+
+&x-bar;
+
+x&#772; 
+
 
 
 Just testing: $\lambda{}$.
