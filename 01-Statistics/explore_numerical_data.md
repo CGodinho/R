@@ -11,12 +11,12 @@
 
 Good for checking associations between variables and the nature of that assocoation.
 
-![scatter plot](explore_numerical_data_1.PNG)
+![scatter plot](explore_numerical_data_1.png)
 
 A one variable scatterplot is called a **dotplot**.
 
 
-![dot plot](explore_numerical_data_2.PNG)
+![dot plot](explore_numerical_data_2.png)
 
 
 ## Mean
@@ -25,7 +25,7 @@ Calculates the **centrer** of a distribution.
 
 The population mean is described by **x&#772;**.
 
-![dot plot](explore_numerical_data_3.PNG)
+![dot plot](explore_numerical_data_3.png)
 
 The sample mean is described by **&#956;**.
 
