@@ -37,6 +37,12 @@ Follow the [tidy data](https://github.com/CGodinho/R/blob/master/02-Concepts/tid
 * Each **column** represents a **variable** (or characteristic). It is recommended to explicitly describe the variable content and units in an adjacent summary description.
 
 
+Just testing: $\lambda{}$.
+
+
+
+\begin{equation} \begin{bmatrix} x & \dot{x} & \theta & \dot{\theta} & L & m & M \end{bmatrix} \end{equation}
+
 ### Without Indices
 
 $\sum x_{i}$
