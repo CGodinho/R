@@ -7,6 +7,7 @@
 **Statistics** is the study of how best to collect, analyze, and draw conclusions from data.
   
 Statistics follow the general process of investigation:
+
 1. Identify a question or problem.
 2. Collect relevant data on the topic.
 3. Analyze the data.
